@@ -4,7 +4,7 @@ set -euo pipefail
 # script.sh - copia tutti i file da una cartella A a una cartella B
 # - usa rsync se disponibile (consigliato) altrimenti cp -a
 # - preserva permessi, timestamp e link simbolici
-# - supporta: --dry-run, --update (solo copia file più recenti), --force, --verbose
+# - supporta: --dry-run, --update (solo copia file più recenti), --force, --verbose --caccona
 
 usage(){
 	cat <<EOF
